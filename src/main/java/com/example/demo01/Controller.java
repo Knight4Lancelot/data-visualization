@@ -6,13 +6,34 @@ import org.springframework.web.servlet.ModelAndView;
 
 @RestController
 public class Controller {
-    @RequestMapping("/index")
-    public String hello() {
-        return "hello world!";
-    }
-    @RequestMapping("/task")
-    public ModelAndView itemsList() {
+    @RequestMapping("")
+    public ModelAndView indexView() {
         ModelAndView mav = new ModelAndView("/views/index.html");
+        return mav;
+    }
+    @RequestMapping("/bar") // 条形图
+    public ModelAndView showBarView() {
+        ModelAndView mav = new ModelAndView("/views/bar.html");
+        return mav;
+    }
+    @RequestMapping("/radar") // 条形图
+    public ModelAndView showRadarView() {
+        ModelAndView mav = new ModelAndView("/views/radar.html");
+        return mav;
+    }
+    @RequestMapping("/sunfigure") // 旭日图
+    public ModelAndView showSunfigureView() {
+        ModelAndView mav = new ModelAndView("/views/sunfigure.html");
+        return mav;
+    }
+    @RequestMapping("/pictogram") // 象形图 
+    public ModelAndView showPictogramView() {
+        ModelAndView mav = new ModelAndView("/views/pictogram.html");
+        return mav;
+    }
+    @RequestMapping("/scatterplot") // 散点图
+    public ModelAndView showScatterplotView() {
+        ModelAndView mav = new ModelAndView("/views/scatterplot.html");
         return mav;
     }
 }

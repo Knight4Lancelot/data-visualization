@@ -1,0 +1,11 @@
+.ViewChoserBtns {
+    cursor: pointer;
+    position: absolute;
+    left: 100px;
+    height: 100px;
+    width: 300px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: white;
+}
