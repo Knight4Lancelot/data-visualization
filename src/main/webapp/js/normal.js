@@ -1,9 +1,32 @@
-var viewChoser = document.getElementsByClassName('ViewChoserBtns');
+var viewChoserList = document.getElementsByClassName('viewChoserBtns');
+var btnInnerIconList = document.getElementsByClassName('btn-inner-icon');
+var btnInnerTextList = document.getElementsByClassName('btn-inner-text');
 
 function init() {
-    for (var i = 0; i < viewChoser.length; i++) {
-        viewChoser[i].style.top = String(100+150*i) + 'px';
+    for (let i = 0; i < viewChoserList.length; i++) {
+        viewChoserList[i].style.top = String(200+100*i) + 'px';
+        viewChoserList[i].onmouseenter = function() { expandButton(i); };
+        viewChoserList[i].onmouseleave = function() { shrinkButton(i); };
+        viewChoserList[i].onclick = function() { jumpToURL(i); };
     }
+}
+
+function expandButton(index) {
+    viewChoserList[index].style.width = '260px';
+    if (index===0) { btnInnerIconList[index].style.left = '45px'; };
+    btnInnerIconList[index].style.left = '35px';
+    setTimeout(()=>{
+        btnInnerTextList[index].style.visibility = 'visible';
+    }, 200);
+}
+
+function shrinkButton(index) {
+    viewChoserList[index].style.width = '80px';
+    btnInnerIconList[index].style.left = '23px';
+    btnInnerTextList[index].style.visibility = 'hidden';
+    setTimeout(()=>{
+        btnInnerTextList[index].style.visibility = 'hidden';
+    }, 200);
 }
 
 function jumpToURL(index) {

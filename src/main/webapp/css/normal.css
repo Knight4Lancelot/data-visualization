@@ -1,11 +1,32 @@
+body {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+
 .ViewChoserBtns {
+    user-select: none;
+    transition: 0.5s;
     cursor: pointer;
     position: absolute;
-    left: 100px;
-    height: 100px;
-    width: 300px;
-    font-size: 20px;
-    border: 1px solid black;
+    z-index: 10;
+    left: 50px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #909399;
     border-radius: 50px;
     background-color: white;
+}
+.btn-inner-icon {
+    transition: 0.2s;
+    position: inherit;
+    top: 23px;
+    left: 23px;
+    width: 30px;
+    height: 30px;
+}
+.btn-inner-text {
+    visibility: hidden;
+    font-size: 22px;
 }

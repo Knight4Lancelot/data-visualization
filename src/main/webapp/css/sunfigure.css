@@ -1,0 +1,19 @@
+#head-sunfigure {
+    user-select: none;
+    color: black;
+    position: absolute;
+    z-index: 2;
+    font-size: 50px;
+    font-weight: 800;
+    left: 250px;
+    top: 50px;
+}
+
+#sunfigure-chart-container {
+    position: absolute;
+    z-index: 1;
+    top: 300px;
+    left: 300px;
+    height: 50%;
+    width: 50%;
+}

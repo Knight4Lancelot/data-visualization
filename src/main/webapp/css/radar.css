@@ -1,0 +1,19 @@
+#head-radar {
+    user-select: none;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    font-size: 50px;
+    font-weight: 800;
+    left: 250px;
+    top: 50px;
+}
+
+
+#radar-chart-container {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
