@@ -1,7 +1,6 @@
 <html>
     <head>
         <title>电影信息数据可视化</title>
-        <link rel="stylesheet" type="text/css" href="../css/normal.css">
         <link rel="stylesheet" type="text/css" href="../css/index.css">
     </head>
     <body onload ="init()">
@@ -14,22 +13,45 @@
         <button id="bar-view" class="ViewChoserBtns">
             <img src="../assets/bar-icon.png" class="btn-inner-icon">
             <span class="btn-inner-text">展示条形图</span>
+            <img class="sample-img" src="../assets/sample-bar.png"
+                style="width: 240px; left: 40px; top: 180px;">
+            <span class='description'>
+                散点图描述
+            </span>
         </button>
         <button id="radar-view" class="ViewChoserBtns">
             <img src="../assets/radar-icon.png" class="btn-inner-icon">
             <span class="btn-inner-text">展示雷达图</span>
+            <img class="sample-img" src="../assets/sample-radar.png"
+                style="width: 240px; left: 40px; top: 150px;">
+            <span class='description'>
+                散点图描述
+            </span>
         </button>
         <button id="sunfigure-view" class="ViewChoserBtns">
             <img src="../assets/sunfigure-icon.png" class="btn-inner-icon">
             <span class="btn-inner-text">展示旭日图</span>
+            <img class="sample-img" src="../assets/sample-sunfigure.png"
+                style="width: 210px; left: 55px; top: 150px;">
+            <span class='description'>
+                散点图描述
+            </span>
         </button>
         <button id="pictogram-view" class="ViewChoserBtns">
             <img src="../assets/pictogram-icon.png" class="btn-inner-icon">
             <span class="btn-inner-text">展示象形图</span>
+            <span class='description'>
+                散点图描述
+            </span>
         </button>
         <button id="scatterplot-view" class="ViewChoserBtns">
             <img src="../assets/scatterplot-icon.png" class="btn-inner-icon">
             <span class="btn-inner-text">展示散点图</span>
+            <img class="sample-img" src="../assets/sample-scatterplot.png"
+                style="width: 210px; left: 55px; top: 150px;">
+            <span class='description'>
+                散点图描述
+            </span>
         </button>
 
         <div id="divider"></div>
@@ -37,23 +59,23 @@
             <span id="data-source-show-head">
                 数据来源：
             </span>
-            <div class="source-item" style="left: 200px; top: 20px;">
+            <div class="source-item" style="left: 200px; top: 60px;">
                 <img src="../assets/taopiaopaio.webp">
             </div>
-            <div class="source-item" style="left: 350px; top: 20px;">
+            <div class="source-item" style="left: 350px; top: 60px;">
                 <img src="../assets/douban.webp">
             </div>
-            <div class="source-item" style="left: 570px; top: 20px;">
+            <div class="source-item" style="left: 570px; top: 65px;">
                 <img src="../assets/maoyan.png" style="height: 90px;">
             </div>
-            <div class="source-item" style="left: 900px; top: 25px;">
+            <div class="source-item" style="left: 900px; top: 70px;">
                 <img src="../assets/meituan.png" style="height: 80px;">
             </div>
-            <div class="source-item" style="left: 1050px; top: 20px;">
+            <div class="source-item" style="left: 1030px; top: 65px;">
                 <img src="../assets/eleme.png" style="height: 90px;">
             </div>
         </div>
 
-        <script src="../js/normal.js"></script>
+        <script src="../js/index.js"></script>
     </body>
 </html>
