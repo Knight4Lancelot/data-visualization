@@ -1,0 +1,38 @@
+#head-index {
+    user-select: none;
+    position: absolute;
+    z-index: 2;
+    font-size: 60px;
+    font-weight: 800;
+    left: 150px;
+    top: 100px;
+}
+
+#divider {
+    position: absolute;
+    top: 900px;
+    width: 90%;
+    left: 5%;
+    border: 1px solid #909399;
+}
+
+#data-source-show {
+    position: absolute;
+    left: 300px;
+    top: 910px;
+}
+#data-source-show-head {
+    position: inherit;
+    font-size: 30px;
+    top: 50px;
+    width: 150px;
+}
+.source-item {
+    position: inherit;
+    width: 200px;
+    height: 150px;
+}
+.source-item img {
+    position: inherit;
+    height: 120px;
+}

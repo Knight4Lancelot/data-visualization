@@ -1,4 +1,4 @@
-#head-sunfigure {
+#head-pictogram {
     user-select: none;
     color: black;
     position: absolute;
@@ -9,10 +9,11 @@
     top: 50px;
 }
 
-#sunfigure-chart-container {
+#pictogram-chart-container {
     position: absolute;
     z-index: 1;
-    top: 0;
-    height: 100%;
-    width: 100%;
+    top: 300px;
+    left: 300px;
+    height: 50%;
+    width: 50%;
 }

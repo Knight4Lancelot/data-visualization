@@ -2,10 +2,12 @@
     <head>
         <title>电影信息数据可视化</title>
         <link rel="stylesheet" type="text/css" href="../css/normal.css">
+        <link rel="stylesheet" type="text/css" href="../css/index.css">
     </head>
     <body onload ="init()">
-        <h2>首页</h2>
-        <button id="index-view" class="ViewChoserBtns">
+        <span id="head-index">电影信息数据可视化</span>
+        <button id="index-view" class="ViewChoserBtns"
+            style="visibility: hidden;">
             <img src="../assets/index-icon.png" class="btn-inner-icon">
             <span class="btn-inner-text">返回首页</span>
         </button>
@@ -29,6 +31,29 @@
             <img src="../assets/scatterplot-icon.png" class="btn-inner-icon">
             <span class="btn-inner-text">展示散点图</span>
         </button>
+
+        <div id="divider"></div>
+        <div id="data-source-show">
+            <span id="data-source-show-head">
+                数据来源：
+            </span>
+            <div class="source-item" style="left: 200px; top: 20px;">
+                <img src="../assets/taopiaopaio.webp">
+            </div>
+            <div class="source-item" style="left: 350px; top: 20px;">
+                <img src="../assets/douban.webp">
+            </div>
+            <div class="source-item" style="left: 570px; top: 20px;">
+                <img src="../assets/maoyan.png" style="height: 90px;">
+            </div>
+            <div class="source-item" style="left: 900px; top: 25px;">
+                <img src="../assets/meituan.png" style="height: 80px;">
+            </div>
+            <div class="source-item" style="left: 1050px; top: 20px;">
+                <img src="../assets/eleme.png" style="height: 90px;">
+            </div>
+        </div>
+
         <script src="../js/normal.js"></script>
     </body>
 </html>
