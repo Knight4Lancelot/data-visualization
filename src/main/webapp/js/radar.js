@@ -5,7 +5,6 @@ function initInterest() {
         {
             value: [8.29, 5.94, 4.33, 3.61, 3.44, 3.27],
             name: '按照观看次数',
-
             lineStyle: {
                 normal: {
                     color: '#46daff'
@@ -16,8 +15,7 @@ function initInterest() {
                     color: "#46daff",
                 }
             }
-        },
-        {
+        }, {
             value: [9.52, 9.26, 9.37, 9.15, 9.05, 9.32],
             name: '按照评分均分',
             lineStyle: {

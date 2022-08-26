@@ -4,7 +4,7 @@ var app = {};
 option = null;
 // 数据意义：年份，城市，专业，招生人数情况
 var data = [{
-name: '2021年',
+name: '电影分类数据',
   itemStyle: {
        color: '#ddaf61'
     },
