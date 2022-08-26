@@ -3,8 +3,8 @@ var myChart = echarts.init(document.getElementById('radarchart'));
 function initInterest() {
     var data=[
         {
-            value: [4, 7, 2, 3, 5, 7],
-            name: '男生',
+            value: [8.29, 5.94, 4.33, 3.61, 3.44, 3.27],
+            name: '按照观看次数',
 
             lineStyle: {
                 normal: {
@@ -18,8 +18,8 @@ function initInterest() {
             }
         },
         {
-            value: [7, 2, 6, 5, 4, 2],
-            name: '女生',
+            value: [9.52, 9.26, 9.37, 9.15, 9.05, 9.32],
+            name: '按照评分均分',
             lineStyle: {
                 normal: {
                     color: 'orange'
@@ -41,7 +41,7 @@ function initInterest() {
             left: 10
         },
         legend:{
-            data:["男生","女生"],
+            data:["按照观看次数","按照评分均分"],
             top:200,
             right:500,
             orient:"vertical",
@@ -90,12 +90,12 @@ function initInterest() {
                 }
             },
             indicator: [
-                { text: '足球', max: 10},
-                { text: '篮球', max: 10},
-                { text: '唱歌', max: 10},
-                { text: '跳舞', max: 10},
-                { text: '钢琴', max: 10},
-                { text: '书法', max: 10}
+                { text: '剧情', max: 10},
+                { text: '喜剧', max: 10},
+                { text: '爱情', max: 10},
+                { text: '动作', max: 10},
+                { text: '惊悚', max: 10},
+                { text: '犯罪', max: 10}
             ]
         },
         series: [{

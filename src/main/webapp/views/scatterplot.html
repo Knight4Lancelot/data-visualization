@@ -2,9 +2,10 @@
     <head>
         <title>电影信息数据可视化</title>
         <link rel="stylesheet" type="text/css" href="../css/normal.css">
+        <link rel="stylesheet" type="text/css" href="../css/scatterplot.css">
     </head>
     <body onload ="init()">
-        <h2>散点图</h2>
+        <span id="head-scatterplot">散点图展示</span>
         <button id="index-view" class="ViewChoserBtns">
             <img src="../assets/index-icon.png" class="btn-inner-icon">
             <span class="btn-inner-text">返回首页</span>
@@ -29,7 +30,15 @@
             <img src="../assets/scatterplot-icon.png" class="btn-inner-icon">
             <span class="btn-inner-text">展示散点图</span>
         </button>
+
+        <div id="scatterplot-chart-container">
+            <div id="Map" style="height: 100%"></div>
+        </div>
+
         <script src="../js/sources/echarts.min.js"></script>
+        <script src="../js/sources/china.js"></script>
+        <script src="../js/sources/mapcodes.js"></script>
         <script src="../js/normal.js"></script>
+        <script src="../js/scatterplot.js"></script>
     </body>
 </html>
