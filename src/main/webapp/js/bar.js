@@ -41,7 +41,7 @@ function initGrades(){
             axisLine: { //---坐标轴 轴线
                 show: true, //---是否显示
                 lineStyle: {
-                    //color: 'rgba(255,255,255,.1)',
+                    color: 'rgba(255,255,255,1)',
                     width: 1,
                     type: 'dotted',
                 },
@@ -49,7 +49,7 @@ function initGrades(){
             axisLabel: {//X轴文字
                 textStyle: {
                     fontSize: 20,
-                    //color: '#fff'
+                    color: '#fff'
                 },
             },
         },
@@ -58,7 +58,7 @@ function initGrades(){
             splitLine: {//分割线
                 show: true,
                 lineStyle: {
-                    //color: 'rgba(255,255,255,.1)',
+                    color: 'rgba(255,255,255,1)',
                     width: 1,
                     type: 'dotted'
                 }
@@ -67,7 +67,7 @@ function initGrades(){
                 formatter: '{value}',
                 textStyle: {
                     fontSize: 20,
-                    //color: '#fff'
+                    color: '#fff'
                 },
             },
             axisLine: { //---坐标轴 轴线

@@ -41,10 +41,10 @@ function jumpToURL(index) {
             document.location = "http://localhost:8080/sunfigure";
             break;
         case 4: 
-            document.location = "http://localhost:8080/pictogram";
+            document.location = "http://localhost:8080/driver";
             break;
         case 5: 
-            document.location = "http://localhost:8080/scatterplot";
+            document.location = "http://localhost:8080/driver";
             break;
         default: 
             document.location = "http://localhost:8080";

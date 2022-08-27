@@ -26,14 +26,14 @@ public class Controller {
         ModelAndView mav = new ModelAndView("/views/sunfigure.html");
         return mav;
     }
-    @RequestMapping("/pictogram") // 象形图 
+    @RequestMapping("/driver") // 象形图 
     public ModelAndView showPictogramView() {
-        ModelAndView mav = new ModelAndView("/views/pictogram.html");
+        ModelAndView mav = new ModelAndView("/driver/index.html");
         return mav;
     }
-    @RequestMapping("/scatterplot") // 散点图
-    public ModelAndView showScatterplotView() {
-        ModelAndView mav = new ModelAndView("/views/scatterplot.html");
-        return mav;
-    }
+    // @RequestMapping("/scatterplot") // 散点图
+    // public ModelAndView showScatterplotView() {
+    //     ModelAndView mav = new ModelAndView("/views/scatterplot.html");
+    //     return mav;
+    // }
 }

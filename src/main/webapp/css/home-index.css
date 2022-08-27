@@ -1,0 +1,106 @@
+body {
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: inherit;
+    width: 98%;
+    height: 12%;
+    left: 1%;
+    top: 1%;
+}
+
+.ViewChoserBtns {
+    overflow: hidden;
+    user-select: none;
+    transition: 0.3s;
+    cursor: pointer;
+    position: absolute;
+    z-index: 10;
+    top: 250px;
+    height: 600px;
+    width: 345px;
+    border-radius: 20px;
+    border: 3px solid #C0C4CC;
+    background-color: #aed6d9;
+}
+.btn-inner-icon {
+    transition: 0.2s;
+    position: inherit;
+    top: 23px;
+    left: 23px;
+    width: 30px;
+    height: 30px;
+}
+.btn-inner-text {
+    position: inherit;
+    top: 20px;
+    left: 60px;
+    font-size: 24px;
+}
+.sample-img {
+    position: inherit;
+}
+.description {
+    position: inherit;
+    top: 400px;
+    left: 30px;
+    width: 280px;
+    font-size: 18px;
+    text-align: left;
+}
+
+#head-index {
+    user-select: none;
+    position: absolute;
+    z-index: 2;
+    font-size: 60px;
+    font-weight: 800;
+    left: 150px;
+    top: 100px;
+    color: white;
+}
+#group-name {
+    user-select: none;
+    position: absolute;
+    z-index: 2;
+    font-size: 30px;
+    left: 720px;
+    top: 130px;
+}
+
+#divider {
+    position: absolute;
+    top: 940px;
+    width: 90%;
+    left: 5%;
+    border: 1px solid #909399;
+}
+
+#data-source-show {
+    position: absolute;
+    left: 300px;
+    top: 900px;
+}
+#data-source-show-head {
+    position: inherit;
+    font-size: 30px;
+    top: 100px;
+    width: 150px;
+}
+.source-item {
+    position: inherit;
+    width: 200px;
+    height: 130px;
+}
+.source-item img {
+    position: inherit;
+    height: 120px;
+}

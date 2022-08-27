@@ -1,17 +1,18 @@
 <html>
     <head>
         <title>电影信息数据可视化</title>
-        <link rel="stylesheet" type="text/css" href="../css/index.css">
+        <link rel="stylesheet" type="text/css" href="../css/home-index.css">
     </head>
     <body onload ="init()">
         <span id="head-index">电影信息数据可视化</span>
-        <span id="group-name">郑睿涵说不用起名 组</span>
+        <!-- <span id="group-name">郑睿涵说不用起名 组</span> -->
         <button id="index-view" class="ViewChoserBtns"
             style="visibility: hidden;">
             <img src="../assets/index-icon.png" class="btn-inner-icon">
             <span class="btn-inner-text">返回首页</span>
         </button>
         <button id="bar-view" class="ViewChoserBtns">
+            <img src="../assets/time.png" class="btn-bg">
             <img src="../assets/bar-icon.png" class="btn-inner-icon">
             <span class="btn-inner-text">展示条形图</span>
             <img class="sample-img" src="../assets/sample-bar.png"
@@ -26,6 +27,7 @@
             </span>
         </button>
         <button id="radar-view" class="ViewChoserBtns">
+            <img src="../assets/time.png" class="btn-bg">
             <img src="../assets/radar-icon.png" class="btn-inner-icon">
             <span class="btn-inner-text">展示雷达图</span>
             <img class="sample-img" src="../assets/sample-radar.png"
@@ -40,6 +42,7 @@
             </span>
         </button>
         <button id="sunfigure-view" class="ViewChoserBtns">
+            <img src="../assets/time.png" class="btn-bg">
             <img src="../assets/sunfigure-icon.png" class="btn-inner-icon">
             <span class="btn-inner-text">展示旭日图</span>
             <img class="sample-img" src="../assets/sample-sunfigure.png"
@@ -54,23 +57,35 @@
             </span>
         </button>
         <button id="pictogram-view" class="ViewChoserBtns">
+            <img src="../assets/time.png" class="btn-bg">
             <img src="../assets/pictogram-icon.png" class="btn-inner-icon">
-            <span class="btn-inner-text">展示象形图</span>
+            <span class="btn-inner-text">驾驶舱展示</span>
+            <img class="sample-img" src="../assets/driver.webp"
+                style="width: 210px; left: 65px; top: 200px;">
             <span class='description'>
-                散点图描述
+                &emsp;利用与数据相适应的图象表示方式
+                来组成驾驶舱，展示对应的数据。<br><br>
+                用于表示：<br>
+                &emsp;各项图表下的数据<br>
             </span>
         </button>
-        <button id="scatterplot-view" class="ViewChoserBtns">
+        <!-- <button id="scatterplot-view" class="ViewChoserBtns">
+            <img src="../assets/time.png" class="btn-bg">
             <img src="../assets/scatterplot-icon.png" class="btn-inner-icon">
-            <span class="btn-inner-text">展示散点图</span>
+            <span class="btn-inner-text">展示折线图</span>
             <img class="sample-img" src="../assets/sample-scatterplot.png"
-                style="width: 200px; left: 70px; top: 150px;">
+                style="width: 200px; left: 70px; top: 200px;">
             <span class='description'>
-                散点图描述
+                &emsp;折线图表示某一个体在一定区间内的
+                走势变化情况，可以很好地由于预测以及归
+                纳方面。<br><br>
+                用于表示：<br>
+                &emsp;（1）热门电影的信息<br>
+                &emsp;（2）热门电影的票房走势<br>
             </span>
-        </button>
+        </button> -->
 
-        <div id="divider"></div>
+        <!-- <div id="divider"></div>
         <div id="data-source-show">
             <span id="data-source-show-head">
                 数据来源：
@@ -90,7 +105,7 @@
             <div class="source-item" style="left: 1030px; top: 65px;">
                 <img src="../assets/eleme.png" style="height: 90px;">
             </div>
-        </div>
+        </div> -->
 
         <script src="../js/index.js"></script>
     </body>
